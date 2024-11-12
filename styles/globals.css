@@ -1,0 +1,25 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.autocompleteDropdown {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  
+  .loadingIndicator {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .highlighted {
+    background-color: #f0f0f0;
+  }
+  

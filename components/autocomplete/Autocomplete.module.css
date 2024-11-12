@@ -1,0 +1,38 @@
+/* components/autocomplete/Autocomplete.module.css */
+.autocompleteDropdown {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #d1d5db; /* Matches Action input border color */
+    border-radius: 0.375rem;
+    margin-top: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .inputClass {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db; /* Matches Action input border */
+    border-radius: 0.375rem;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .inputClass:focus {
+    border-color: #3b82f6; /* Blue border on focus, similar to Action input */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3); /* Focus ring */
+  }
+  
+  .listItem {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .listItem:hover,
+  .highlighted {
+    background-color: #f3f4f6;
+  }
+  
